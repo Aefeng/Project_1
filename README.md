@@ -1,5 +1,5 @@
 ## PDF_TOOLKIT
-a lightweight web-app that helps you segment, slit and merge PDF files together
+a lightweight web-app that helps you segment, split and merge PDF files together
 
 # Key Features
 .PDF merger - this tool helps you merge Multiple PDF files together.
@@ -13,8 +13,11 @@ a lightweight web-app that helps you segment, slit and merge PDF files together
 
 # Installation Process
 .clone_the_repository- run git clone 
+
 .change directory to the projects folder - run cd PROJECTS
+
 .install required libraries - pip install -r requirements.txt
+
 .Run the application - streamlit run pdf_splitter.py
 
 # Note: the root folder contains only two files (pdf_splitter.py, requirements.txt).
