@@ -19,7 +19,7 @@ a lightweight web-app that helps you segment, split and merge PDF files together
 
 # Installation Process
 
-.clone_the_repository- run git clone 
+.clone_the_repository- run git clone https://github.com/Aefeng/Project_1.git 
 
 .change directory to the projects folder - run cd PROJECTS
 
