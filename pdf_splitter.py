@@ -64,7 +64,7 @@ Tab1,Tab2, Tab3 = st.tabs(["Split PDFs", "Slice PDFs", "Merge PDFs"])
 with Tab1:
 
     st.title("PDF splitter 📝")
-    st.info("*This tool takes in one input page and splits the pdf into two parts (first page to selected page, Selected page onwards)*")
+    st.info("*This tool splits the uploaded pdf file into two parts  (first page to selected page, Selected page onwards)*")
     uploaded_file=st.file_uploader("Upload your pdf file ", type="pdf")
     if uploaded_file:
         reader=PdfReader(uploaded_file)
