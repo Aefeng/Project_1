@@ -82,15 +82,14 @@ with Tab1:
                     col1,col2=st.columns(2)
                 
                 # Display Buttons on two seperate columns
-                with col1:
+                with col1,col2:
                     st.download_button(
                         label="Download Part 1",
                         data=part1,
                         file_name=f"{title} (from page 1 to {split_page}).pdf" or "Document_1.pdf",
                         mime="application/pdf"
-                    )
-                with col2:
-                    st.download_button(
+                    ),
+                        st.download_button(
                         label="Download Part 2",
                         data=part2,
                         file_name=f"{title} (from page {split_page} to {total_pages}).pdf" or "Document_2.pdf",
