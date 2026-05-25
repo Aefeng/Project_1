@@ -25,6 +25,6 @@ a lightweight web-app that helps you segment, split and merge PDF files together
 
 .install required libraries - pip install -r requirements.txt
 
-.Run the application - streamlit run pdf_splitter.py
+.Run the application - streamlit run pdf_splitter.py( do this in an integrated terminal)
 
 # Note: the root folder contains only two files (pdf_splitter.py, requirements.txt).
